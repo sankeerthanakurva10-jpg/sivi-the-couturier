@@ -1,0 +1,80 @@
+import { Product } from '../types/collection';
+
+export const productsDatabase: Product[] = [
+  {
+    id: "sivi-prod-1",
+    name: "Ivory Raw Silk Angrakha Anarkali",
+    price: 48500,
+    primaryImage: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=1000&auto=format&fit=crop",
+    category: "Anarkalis",
+    fabric: "Raw Silk",
+    color: "Ivory",
+    sizes: ["XS", "S", "M", "L"],
+    inStock: true,
+    isNew: true,
+    isSale: false,
+    description: "A pristine hand-spun raw silk angrakha featuring subtle handcrafted organza transitions and gold gota borders."
+  },
+  {
+    id: "sivi-prod-2",
+    name: "Crimson Banarasi Katan Silk Saree",
+    price: 64000,
+    originalPrice: 72000,
+    primaryImage: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?q=80&w=1200&auto=format&fit=crop",
+    category: "Sarees",
+    fabric: "Katan Silk",
+    color: "Red",
+    sizes: ["OFS"],
+    inStock: true,
+    isNew: false,
+    isSale: true,
+    description: "Hand-woven pure Katan silk saree adorned with classic continuous gold zari floral motifs across the pallu field."
+  },
+  {
+    id: "sivi-prod-3",
+    name: "Muted Gold Linen Luxury Overlay Blazer",
+    price: 24500,
+    primaryImage: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=1000&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=2012&auto=format&fit=crop",
+    category: "Tailoring",
+    fabric: "Handloom Linen",
+    color: "Gold",
+    sizes: ["S", "M", "L", "XL"],
+    inStock: true,
+    isNew: true,
+    isSale: false,
+    description: "A modern structural casual luxury wrap blazer structured out of organic loose-weave hand-spun linen yarns."
+  },
+  {
+    id: "sivi-prod-4",
+    name: "Sage Green Khadi Silk Kaftan Dress",
+    price: 18500,
+    primaryImage: "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1000&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop",
+    category: "Dresses",
+    fabric: "Khadi Silk",
+    color: "Green",
+    sizes: ["S", "M", "L"],
+    inStock: false,
+    isNew: false,
+    isSale: false,
+    description: "An effortless drop-shoulder flowing signature lifestyle kaftan stitched with hand-loomed organic structural wild silk blends."
+  },
+  {
+    id: "sivi-prod-5",
+    name: "Midnight Indigo Tussar Silk Jacket",
+    price: 32000,
+    primaryImage: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=1200&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=2012&auto=format&fit=crop",
+    category: "Tailoring",
+    fabric: "Tussar Silk",
+    color: "Blue",
+    sizes: ["M", "L", "XL"],
+    inStock: true,
+    isNew: false,
+    isSale: false,
+    description: "Deep indigo quilted outer layer, organically printed via traditional hand block techniques by regional artisans."
+  }
+];
